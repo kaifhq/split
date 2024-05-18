@@ -82,7 +82,7 @@ h1 {
   font-size: var(--normal-size);
   font-weight: 900;
   font-style: italic;
-  line-height: 0.6;
+  line-height: 0.65;
   transition: all 0.25s;
   display: flex;
   flex-direction: column;
@@ -112,6 +112,7 @@ button {
   background: none;
   border: none;
   cursor: pointer;
+  color: #000000;
 }
 footer {
   color: #2A6A47;
