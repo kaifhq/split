@@ -2,12 +2,66 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" type="image/png" href="/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kaif App</title>
+    <meta name="theme-color" content="#55D58E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap&text=%D1%81%D0%B5%D0%B9%D1%87%D0%B0%D1%81" rel="stylesheet">
+
+    <title>Кайф кайф</title>
+    <meta name="description" content="Демо страничка на Кайфе :-)" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Кайф кайф" />
+
+<meta property="og:description" content="Демо страничка на Кайфе :-)"/>
+<meta property="og:image" content="./icon.png" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Кайф кайф"/>
+<meta name="twitter:description" content="Демо страничка на Кайфе :-)"/>
+<meta name="twitter:image" content="./icon.png"/>
+    <style>
+    @import './style.css';
+    </style>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/main.jsx"></script>
+    <div id="root">
+      <h1>Кайф кайф</h1>
+      <button id="button">
+        <div id="overlay"></div>
+        <div id="t1">
+          <div>
+          <span class="josefin-sans-a">с</span>
+          <span class="josefin-sans-b">е</span>
+          <span class="josefin-sans-a">й</span>
+          </div>
+        </div>
+        <div id="t2">
+          <div>
+          <span class="josefin-sans-a">ч</span>
+          <span class="josefin-sans-b">а</span>
+          <span class="josefin-sans-a">с</span>
+          </div>
+          <div id="cta">
+          <span>нажми прямо сейчас!</span>
+          <img src="./arrow.svg" />
+          </div>
+        </div>
+      </button>
+      <footer>
+        <span>
+          Проект сделан при помощи Kaif
+        </span>
+        <a href="https://pay.yandex.ru/split_now">
+          Оригинальный сайт (вдохновние)
+        </a>
+      </footer>
+    </div>
+    <script type="module">
+    import './main.jsx';
+    </script>
   </body>
 </html>
