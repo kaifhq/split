@@ -62,7 +62,7 @@ const App = () => {
         </div>
         <div id="cta">
         <span>нажми прямо сейчас!</span>
-        <img src="./arrow.svg" />
+        <img width="16" height="16" src="./arrow.svg" alt="стрелка"/>
         </div>
       </div>
     </button>
