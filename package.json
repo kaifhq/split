@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --outDir=_site",
+    "build": "vite build --outDir=_site --base=split",
     "preview": "vite preview"
   },
   "devDependencies": {
