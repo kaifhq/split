@@ -4,6 +4,6 @@ COPY . /app
 RUN cd /app && npm i && npm run build
 
 FROM nginx:stable-alpine3.17-slim
-COPY --from=0 /app/dist /usr/share/nginx/html
+COPY --from=0 /app/_site /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
